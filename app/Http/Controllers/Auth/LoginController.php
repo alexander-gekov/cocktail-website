@@ -60,8 +60,6 @@ class LoginController extends Controller
     {
         $fb_user = Socialite::driver($provider)->stateless()->user();
 
-        dd($fb_user);
-
         $user = User::where('provider_id', $fb_user->getId())->first();
 
         //add user to db

@@ -70,7 +70,8 @@ class DrinkController extends Controller
      */
     public function update(Request $request, Drink $drink)
     {
-        $drink = Drink::find($drink->id)->update($request->all());
+        $drink = Drink::find($drink->id);
+        $drink->update($request->all());
         return $drink;
     }
 
