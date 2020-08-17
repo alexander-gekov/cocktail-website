@@ -26,6 +26,7 @@
     "dependencies": {
         "font-awesome": "^4.7.0",
         "tailwindcss-gradients": "^3.0.0",
-        "vue": "^2.6.11"
+        "vue": "^2.6.11",
+        "vue-tailwind-modal": "0.0.7"
     }
 }

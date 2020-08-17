@@ -17,7 +17,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&display=swap" rel="stylesheet">
     <livewire:styles/>
-    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
 </head>
 <body class="bg-orange-500 h-screen antialiased leading-none" style="background: rgb(237,137,54);
 background: radial-gradient(circle, rgba(237,137,54,1) 0%, rgba(209,85,44,1) 100%);">
@@ -74,6 +73,7 @@ background: radial-gradient(circle, rgba(237,137,54,1) 0%, rgba(209,85,44,1) 100
     </div>
 </div>
 <livewire:scripts/>
+<script src="https://cdn.jsdelivr.net/gh/livewire/vue@v0.2.x/dist/livewire-vue.js"></script>
 </body>
 </html>
 
